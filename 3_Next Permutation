@@ -1,0 +1,20 @@
+#include <bits/stdc++.h> 
+vector<int> nextPermutation(vector<int> &permutation, int n)
+{
+    next_permutation(permutation.begin(),permutation.end());
+    return permutation;
+    // int n= permutation.size();
+    // vector<int> ans;
+    // int i=0;
+    // while(i<n-2)
+    // {
+    //     int t= permutation[i];
+    //     ans.push_back(t);
+    //     i++;
+    // }
+    // ans.push_back(permutation[n-1]);
+    // ans.push_back(permutation[n-2]);
+    // return ans;
+
+    //  Write your code here.
+}
